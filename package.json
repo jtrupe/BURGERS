@@ -1,8 +1,14 @@
 {
-  "name": "package.json",
+  "name": "burgers",
   "version": "1.0.0",
   "description": "retrying Burger assignment after heroku broke it",
   "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,15 +17,11 @@
     "type": "git",
     "url": "git+https://github.com/jtrupe/BURGERS.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jtrupe/BURGERS/issues"
   },
-  "homepage": "https://github.com/jtrupe/BURGERS#readme",
-  "devDependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.18.1"
-  }
+  "homepage": "https://github.com/jtrupe/BURGERS#readme"
 }
